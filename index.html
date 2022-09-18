@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ResponsiveLanding</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="bg"></div>
+        <div class="navbar">
+            <h3 class="title">Fruits</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="textContent">
+                <h1>Eat Fresh Everyday</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ut assumenda, delectus sequi,
+                    magnam hic vitae,
+                    doloribus nihil voluptatum iure aperiam eos non dolor atque velit magni nam veniam dicta? Ipsa
+                    fugit ullam eveniet
+                    voluptates,nam eaque quos dolorum nesciunt ipsam distinctio magnam corrupti suscipit non.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imageContent">
+                <img  src="apple.png" class="fruitimg" >
+            </div>
+
+        </div>
+        <ul class="fruits">
+            <li  data-text="Apple" class="active "><img src="apple.png" onclick="imgslider('apple.png'); background('#fc4a55')" ></li>
+            <li  data-text="Mango"><img src="mango.png"  onclick="imgslider('mango.png');background('#ffc324')"> </li>
+            <li data-text="Watermelon"><img src="watermelon.png"onclick="imgslider('watermelon.png');background('#71a95a')" ></li>
+            <li data-text="Dragon fruit"><img  src="dragonfruit.png" onclick="imgslider('dragonfruit.png');background('#f35d8b')"></li>
+            <li data-text="Pineapple"><img src="pineapple.png" onclick="imgslider('pineapple.png');background('#FFD964')" ></li>
+        </ul>
+        <ul class="media">
+            <li><a href="#"><i class="fa fa-facebook" ></a></i></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></a></i>
+            </li>
+        </ul>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
